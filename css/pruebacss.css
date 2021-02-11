@@ -24,18 +24,6 @@
 .txt {
   text-align: center; }
 
-.txt__qsomos {
-  font-size: 20px;
-  color: #B9B9B9; }
-
-.txt__parrafo {
-  font-size: 20px;
-  color: #B9B9B9; }
-
-.txt__final {
-  font-size: 20px;
-  color: #B9B9B9; }
-
 .txt__ {
   text-align: center; }
 
@@ -57,7 +45,6 @@ nav {
   font-size: 15px;
   color: #303030; }
 
-> > > > > > > branch_1
 .footer__ {
   display: flex;
   margin-top: 50px;
@@ -82,6 +69,12 @@ nav {
   list-style: none;
   font-size: 14px;
   padding-top: 10px; }
+
+.footer__link {
+  text-decoration: none; }
+
+.footer__link:hover {
+  color: #70CEF5; }
 
 .white-tog {
   color: #FFFFFF; }
@@ -112,3 +105,19 @@ footer a {
   position: absolute;
   left: 50%;
   transform: translatex(-50%); }
+
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  .footer__ {
+    text-align: center; }
+  .footer__lista__attalcliente {
+    list-style: none; }
+  .txt__parrafo {
+    font-size: 15px;
+    color: #B9B9B9;
+    padding-bottom: 2px; } }
+
+.footer__link {
+  text-decoration: none; }
+
+.footer__link:hover {
+  color: #70CEF5; }
