@@ -160,6 +160,12 @@ text-align: center;
   margin-left: 100px;
   padding-bottom: 10px;
 }
+.divlista__footer{
+  display: flex;
+}
+.divlista__footer__center{
+  justify-content: center;
+}
 
 
 @media screen and(min-width: 0px) and (max-width: 768px){
@@ -188,5 +194,7 @@ text-align: center;
 .revista__subtitulo{
   padding-top: 20px;
 }
-
+.fieldset__legend{
+  text-align: center;
+}
 }
