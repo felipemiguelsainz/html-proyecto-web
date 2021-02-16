@@ -87,6 +87,7 @@ font-size: 40px;
 }
 .fieldset__legend{
 	text-align: left;
+  margin-left: 50px;
 }
 .fieldset__suscripcion{
 	text-align: center;
@@ -169,7 +170,13 @@ text-align: center;
 .iframe__div{
   height: 800px;
 }
-
+.big__nav{
+  font-style: italic;
+  font-size: 25px;
+}
+.sm__nav{
+  font-size: 13px;
+}
 
 @media screen and(min-width: 0px) and (max-width: 768px){
   .footer__{
