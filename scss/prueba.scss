@@ -97,9 +97,6 @@ font-size: 40px;
 .list__bg{
   background-color: #84A8FA
 }
-.txt__big{
-  text-align: center;
-}
 footer{
   a:hover{
     color: #5F5FFB;
@@ -151,6 +148,18 @@ footer{
     margin-top: 100px;
     text-align:center;
 }
+.iframe__div{
+text-align: center;
+}
+.revista__titulo{
+  font-size: 30px;
+  margin-left: 100px;
+}
+.revista__subtitulo{
+  font-size: 20px;
+  margin-left: 100px;
+  padding-bottom: 10px;
+}
 
 
 @media screen and(min-width: 0px) and (max-width: 768px){
@@ -176,4 +185,8 @@ footer{
 .not__titulo{
   text-align: center;
 }
+.revista__subtitulo{
+  padding-top: 20px;
+}
+
 }

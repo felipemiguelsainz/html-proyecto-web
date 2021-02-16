@@ -14,26 +14,28 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
 <body class="body">
 <!--nav------------------------------------------------------------------------------------------------------------------------------------------->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+ <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid ">
-    <a class="navbar-brand" href="#">HH NEWS</a>
+    <a class="navbar-brand" href="index.html">HH NEWS</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
         <li class="nav-item">
-          <a class="nav-link" href="#">Revistas</a>
+          <a class="nav-link" href="revistas.html">Revistas</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Noticias</a>
+          <a class="nav-link active" href="noticias.html">Noticias</a>
         <li class="nav-item">
-          <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Suscripcion</a>
+          <a class="nav-link" href="subs.html" tabindex="-1" aria-disabled="true">Suscripcion</a>
         </li>
       </ul>
     </div>
   </div>
 </nav>
+<!--iframe-------->
+<iframe src="https://especialess3.lanacion.com.ar/20/08/anexo-home-fiebres/index.html?initialWidth=1903&amp;childId=bloque1-pymnro0&amp;parentTitle=%C3%9Altimas%20noticias%20de%20Argentina%20y%20el%20mundo%20-%20LA%20NACION&amp;parentUrl=https%3A%2F%2Fwww.lanacion.com.ar%2F" width="100%" scrolling="no" marginheight="0" frameborder="0" height="198px"></iframe>
 <!--titulo------------------------------------------------------------------------------------------------------------------------------------------->
 <div>
  <div class="not__titulo">Noticias del dia</div> 
@@ -42,11 +44,11 @@
 <div class="accordion accordion-flush" id="accordionFlushExample">
   <div class="accordion-item">
     <h2 class="accordion-header" id="flush-headingOne">
-      <button class="accordion-button collapsed acc__title" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+      <button class="accordion-button acc__title" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
         Revolución 5G: Argentina, ante un panorama incierto
       </button>
     </h2>
-    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+    <div  id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
      <div class="disable pr-5 pl-5 pt-5 acc__subt">
        En Estados Unidos comenzó a utilizarse en 2018. Chile anunció el lanzamiento del proceso de licitación del espectro. En nuestro país se espera que el 5G llegue después de 2022 o 2023.
      </div>
@@ -135,16 +137,16 @@ Con respecto al año pasado no tiene muchos cambios, salvo el regreso de los bot
         <li><a class="footer__link" href="attalcliente.html">Atencion al cliente</a></li>
         <li><a class="footer__link" href="index.html">Inicio</a></li>
         <li><a class="footer__link" href="noticias.html">Noticias</a></li>
-        <li><a class="footer__link" href="suscripcion.html">Suscripcion</a></li>
+        <li><a class="footer__link" href="subs.html">Suscripcion</a></li>
         <li><a class="footer__link" href="revistas.html">Revistas</a></li>
       </ul>
     </div>
     <div class="col-sm">
       <a href="attalcliente.html"><div class="footer__titulo">Atencion al cliente</div></a>
       <ul class="footer__lista__attalcliente">
-      <li><a class="footer__link" href="">Problemas con el envio</a></li>
-      <li><a class="footer__link" href="">Numeros de contacto</a></li>
-      <li><a class="footer__link" href="">Consultas</a></li>
+      <li><a class="footer__link" href="attalcliente.html">Problemas con el envio</a></li>
+      <li><a class="footer__link" href="attalcliente.html">Numeros de contacto</a></li>
+      <li><a class="footer__link" href="attalcliente.html">Consultas</a></li>
     </ul>
     </div>
   </div>
